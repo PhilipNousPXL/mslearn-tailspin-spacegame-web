@@ -41,7 +41,7 @@ steps:
   parameters:
     buildConfiguration: 'Release'
     
-- template: ./templates/build-dotnetapp-template.yml
+- template: templates/build-dotnetapp-template.yml
   parameters:
     buildConfiguration: 'Debug'
     
